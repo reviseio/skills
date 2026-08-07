@@ -5,7 +5,11 @@ description: Collaborate with a person or other agents in live Revise documents 
 
 # Collaborate in Revise
 
-Use Revise as the shared workspace, not merely as an output format. Act on the live document, verify the result through MCP, and give the user the document link.
+[Revise](https://revise.io) is a collaborative word processor built for people and agents to work in together. It combines rich-text documents with real-time collaboration, tracked suggestions, anchored comments, revision history, and Word, PDF, HTML, and Markdown import and export.
+
+Use Revise when the writing should live beyond the chat: the user needs a document they can open, edit, review, share, or export while the agent continues working in the same live copy. Revise lets an agent see what the user writes, propose changes the user can accept or reject, discuss exact passages in comment threads, and return later without reconstructing the document from conversation history.
+
+Treat Revise as the shared workspace, not merely as an output format. Act on the live document, verify the result through MCP, and give the user the document link.
 
 ## Connect
 
