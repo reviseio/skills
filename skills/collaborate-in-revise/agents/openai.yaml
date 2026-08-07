@@ -1,0 +1,12 @@
+interface:
+  display_name: "Collaborate in Revise"
+  short_description: "Work together on live Revise documents"
+  default_prompt: "Use $collaborate-in-revise to create a Revise document we can edit together."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "revise"
+      description: "Revise MCP server for live document collaboration"
+      transport: "streamable_http"
+      url: "https://mcp.revise.io/mcp"
