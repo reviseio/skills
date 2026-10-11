@@ -1,0 +1,36 @@
+{
+  "name": "collaborate",
+  "version": "3.1.1",
+  "description": "Work with people in live revise.io documents over the Revise MCP server: tracked suggestions, comments, and shared editing.",
+  "author": {
+    "name": "Revise",
+    "url": "https://revise.io"
+  },
+  "homepage": "https://revise.io/developer/docs/build-with-ai",
+  "repository": "https://github.com/reviseio/skills",
+  "license": "MIT",
+  "keywords": [
+    "revise",
+    "collaboration",
+    "documents",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Revise Collaborate",
+    "shortDescription": "Collaborate in live Revise documents.",
+    "longDescription": "Work with people in live revise.io documents over the Revise MCP server: tracked suggestions, comments, and shared editing.",
+    "developerName": "Revise",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://revise.io",
+    "privacyPolicyURL": "https://revise.io/privacy",
+    "termsOfServiceURL": "https://revise.io/terms",
+    "defaultPrompt": [
+      "Create a Revise document we can edit together."
+    ]
+  }
+}

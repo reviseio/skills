@@ -1,20 +1,71 @@
-# Revise skills
+# Revise agent skills
 
-Agent skills for collaborating in [Revise](https://revise.io), the word processor built for people and agents to work together.
+Skills that teach coding agents (Claude Code, Codex, Cursor, Copilot, and
+others) to work with [Revise](https://revise.io) documents.
 
-## Install
+Quickest start: paste one of these into your agent.
 
-```sh
-npx skills add https://github.com/reviseio/skills --skill collaborate-in-revise
+```
+Read https://revise.io/skills/cli.md and follow it.
+Read https://revise.io/skills/editor.md and follow it.
+Read https://revise.io/skills/collaborate.md and follow it.
 ```
 
-The skill connects compatible agents to the Revise MCP server at `https://mcp.revise.io/mcp` and teaches them to create shared documents, read human edits, propose tracked changes, discuss passages in comments, and verify their work.
+| Plugin | Skill | For |
+| --- | --- | --- |
+| `cli@revise` | [`revise-cli`](skills/revise-cli) | Reading, editing, redlining, and converting Word documents with the `revise` CLI and TypeScript library |
+| `editor@revise` | [`revise-editor`](skills/revise-editor) | Building document editors with [`@reviseio/editor`](https://www.npmjs.com/package/@reviseio/editor) |
+| `collaborate@revise` | [`collaborate-in-revise`](skills/collaborate-in-revise) | Working with people in live revise.io documents over the Revise MCP server |
 
-## Available skills
+`cli` and `editor` need no account or connection: the CLI, library, and
+editor run on your machine and your servers. `collaborate` adds the Revise
+MCP server (`https://mcp.revise.io/mcp`).
 
-- `collaborate-in-revise` — use a live Revise document as a shared workspace with a person or another agent.
+## Claude Code
 
-[Revise MCP documentation](https://revise.io/help/mcp-server)
+```bash
+claude plugin marketplace add reviseio/skills
+claude plugin install cli@revise
+claude plugin install editor@revise
+claude plugin install collaborate@revise
+```
+
+Update with `claude plugin update cli@revise`, then `/reload-plugins` or a new session.
+
+## Codex and the ChatGPT desktop app
+
+```bash
+codex plugin marketplace add reviseio/skills
+codex plugin add cli@revise
+codex plugin add editor@revise
+codex plugin add collaborate@revise
+```
+
+Update with `codex plugin marketplace upgrade revise`, then add the plugins again.
+
+## Cursor, Copilot, Windsurf, Cline, and others
+
+```bash
+npx skills add reviseio/skills --skill revise-cli
+npx skills add reviseio/skills --skill revise-editor
+npx skills add reviseio/skills --skill collaborate-in-revise
+```
+
+Update with `npx skills update`.
+
+## Without a plugin system
+
+`revise skill install` writes the CLI skill into `.agents/skills` (or
+`.claude/skills`), and `revise skill` prints it. Or copy a skill folder
+from `skills/` into your agent's skills directory, keeping `SKILL.md` with
+the files it references.
+
+## Maintaining
+
+`skills/revise-cli` and `skills/revise-editor` (and `plugins/`, the manifests,
+and this README) are generated from each `revise` release; edit them in the
+Revise monorepo, not here. `skills/collaborate-in-revise` is authored here.
+`node scripts/validate-distribution.mjs` checks the manifests; CI runs it.
 
 ## License
 

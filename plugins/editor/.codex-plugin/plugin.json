@@ -1,0 +1,37 @@
+{
+  "name": "editor",
+  "version": "3.1.1",
+  "description": "Build document editors with tracked changes and comments into your app with @reviseio/editor.",
+  "author": {
+    "name": "Revise",
+    "url": "https://revise.io"
+  },
+  "homepage": "https://revise.io/developer/docs/build-with-ai",
+  "repository": "https://github.com/reviseio/skills",
+  "license": "MIT",
+  "keywords": [
+    "docx",
+    "word",
+    "editor",
+    "sdk",
+    "react"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Revise Editor",
+    "shortDescription": "Build Word-grade document editors.",
+    "longDescription": "Build document editors with tracked changes and comments into your app with @reviseio/editor.",
+    "developerName": "Revise",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://revise.io",
+    "privacyPolicyURL": "https://revise.io/privacy",
+    "termsOfServiceURL": "https://revise.io/terms",
+    "defaultPrompt": [
+      "Add a Word editor with tracked changes to my React app."
+    ]
+  }
+}

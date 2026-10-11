@@ -1,0 +1,19 @@
+{
+  "name": "cli",
+  "description": "Read, edit, redline, and convert Word documents with the revise CLI and TypeScript library.",
+  "version": "3.1.1",
+  "author": {
+    "name": "Revise",
+    "url": "https://revise.io"
+  },
+  "homepage": "https://revise.io/developer/docs/build-with-ai",
+  "repository": "https://github.com/reviseio/skills",
+  "license": "MIT",
+  "keywords": [
+    "docx",
+    "word",
+    "tracked-changes",
+    "documents",
+    "cli"
+  ]
+}

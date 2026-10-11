@@ -1,0 +1,44 @@
+{
+  "name": "revise",
+  "interface": {
+    "displayName": "Revise"
+  },
+  "plugins": [
+    {
+      "name": "cli",
+      "source": {
+        "source": "local",
+        "path": "./plugins/cli"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "editor",
+      "source": {
+        "source": "local",
+        "path": "./plugins/editor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "collaborate",
+      "source": {
+        "source": "local",
+        "path": "./plugins/collaborate"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

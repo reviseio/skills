@@ -1,0 +1,69 @@
+{
+  "name": "revise",
+  "description": "Revise agent skills: documents from the terminal, editors in your app, and live collaboration.",
+  "owner": {
+    "name": "Revise",
+    "url": "https://revise.io"
+  },
+  "plugins": [
+    {
+      "name": "cli",
+      "source": "./plugins/cli",
+      "description": "Read, edit, redline, and convert Word documents with the revise CLI and TypeScript library.",
+      "version": "3.1.1",
+      "author": {
+        "name": "Revise",
+        "url": "https://revise.io"
+      },
+      "category": "development",
+      "keywords": [
+        "docx",
+        "word",
+        "tracked-changes",
+        "documents",
+        "cli"
+      ],
+      "homepage": "https://github.com/reviseio/skills",
+      "repository": "https://github.com/reviseio/skills"
+    },
+    {
+      "name": "editor",
+      "source": "./plugins/editor",
+      "description": "Build document editors with tracked changes and comments into your app with @reviseio/editor.",
+      "version": "3.1.1",
+      "author": {
+        "name": "Revise",
+        "url": "https://revise.io"
+      },
+      "category": "development",
+      "keywords": [
+        "docx",
+        "word",
+        "editor",
+        "sdk",
+        "react"
+      ],
+      "homepage": "https://github.com/reviseio/skills",
+      "repository": "https://github.com/reviseio/skills"
+    },
+    {
+      "name": "collaborate",
+      "source": "./plugins/collaborate",
+      "description": "Work with people in live revise.io documents over the Revise MCP server: tracked suggestions, comments, and shared editing.",
+      "version": "3.1.1",
+      "author": {
+        "name": "Revise",
+        "url": "https://revise.io"
+      },
+      "category": "development",
+      "keywords": [
+        "revise",
+        "collaboration",
+        "documents",
+        "mcp"
+      ],
+      "homepage": "https://github.com/reviseio/skills",
+      "repository": "https://github.com/reviseio/skills"
+    }
+  ]
+}
