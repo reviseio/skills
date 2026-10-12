@@ -1,7 +1,7 @@
 {
   "name": "collaborate",
   "description": "Work with people in live revise.io documents over the Revise MCP server: tracked suggestions, comments, and shared editing.",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "author": {
     "name": "Revise",
     "url": "https://revise.io"

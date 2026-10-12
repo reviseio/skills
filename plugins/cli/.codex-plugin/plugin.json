@@ -1,6 +1,6 @@
 {
   "name": "cli",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "Read, edit, redline, and convert Word documents with the revise CLI and TypeScript library.",
   "author": {
     "name": "Revise",
