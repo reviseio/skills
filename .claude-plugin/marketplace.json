@@ -10,7 +10,7 @@
       "name": "cli",
       "source": "./plugins/cli",
       "description": "Read, edit, redline, and convert Word documents with the revise CLI and TypeScript library.",
-      "version": "3.1.2",
+      "version": "3.1.5",
       "author": {
         "name": "Revise",
         "url": "https://revise.io"
@@ -30,7 +30,7 @@
       "name": "editor",
       "source": "./plugins/editor",
       "description": "Build document editors with tracked changes and comments into your app with @reviseio/editor.",
-      "version": "3.1.2",
+      "version": "3.1.5",
       "author": {
         "name": "Revise",
         "url": "https://revise.io"
@@ -50,7 +50,7 @@
       "name": "collaborate",
       "source": "./plugins/collaborate",
       "description": "Work with people in live revise.io documents over the Revise MCP server: tracked suggestions, comments, and shared editing.",
-      "version": "3.1.2",
+      "version": "3.1.5",
       "author": {
         "name": "Revise",
         "url": "https://revise.io"

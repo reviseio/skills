@@ -1,7 +1,7 @@
 {
   "name": "editor",
   "description": "Build document editors with tracked changes and comments into your app with @reviseio/editor.",
-  "version": "3.1.2",
+  "version": "3.1.5",
   "author": {
     "name": "Revise",
     "url": "https://revise.io"
