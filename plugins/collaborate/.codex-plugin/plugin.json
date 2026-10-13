@@ -1,6 +1,6 @@
 {
   "name": "collaborate",
-  "version": "3.1.5",
+  "version": "3.1.6",
   "description": "Work with people in live revise.io documents over the Revise MCP server: tracked suggestions, comments, and shared editing.",
   "author": {
     "name": "Revise",
