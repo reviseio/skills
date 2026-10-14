@@ -146,6 +146,6 @@ Things that break first integrations:
 
 Server-side conversion, seeding collaboration rooms, and headless edits of a
 shared Y.Doc use the `revise` package (MIT), at the same version as the
-editor. Use the `revise-cli` skill for that. In 3.0, `@reviseio/editor/server` was
-removed in favor of `revise`; see `editor-sdk/installation.md` for the
-migration table.
+editor. Use the `revise-cli` skill for that. Version 3 (first release 3.1.7)
+removed the editor's `/server` entry point in favor of `revise`; see
+`editor-sdk/installation.md` for the migration table.

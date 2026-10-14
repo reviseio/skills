@@ -13,7 +13,7 @@ end of the line before writing code.
 - Load the editor on demand with `lazy()` and `Suspense`; bundle size and Vite's chunk warning. https://revise.io/developer/docs/editor-sdk/installation.md
 - Pin an exact version; the package ships a `CHANGELOG.md`; breaking changes only in majors. https://revise.io/developer/docs/editor-sdk/installation.md
 - Release history for every version. https://revise.io/developer/docs/editor-sdk/changelog.md
-- Migrate from `revise` 2.x, `@reviseio/sdk`, or `@reviseio/editor/server` (2.x) to 3.0. https://revise.io/developer/docs/editor-sdk/installation.md
+- Migrate from `revise` 2.x, `@reviseio/sdk`, or the 2.3 `/server` entry point to 3.x (`/server` code moves to `revise`). https://revise.io/developer/docs/editor-sdk/installation.md
 - Self-host on-demand assets (fonts, math CSS, PDF worker, Tree-sitter) with `setAssetBaseUrl()`; CSP origins to allow. https://revise.io/developer/docs/editor-sdk/installation.md
 - Single copy of Yjs: Vite `resolve.dedupe` and `optimizeDeps.exclude`, `npm ls yjs`. https://revise.io/developer/docs/editor-sdk/guides/collaboration.md
 - Licensing: free use, commercial license, restrictions, full license text. https://revise.io/developer/docs/editor-sdk/license.md
